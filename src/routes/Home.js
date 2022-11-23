@@ -1,8 +1,9 @@
+import Slideshow from "../components/Slideshow";
 const Home = () => {
     return (
         <div className="home">
-            <h2>Home</h2>
+        <Slideshow />
         </div>
-    )
+    );
 };
 export default Home;
