@@ -1,15 +1,12 @@
-import Iframe from 'react'
+import Iframe from 'react-iframe'
 
 const FacebookReviews = () => {
 
     return (
-
-    <Iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fbrandon.lunderstedt%2Fposts%2Fpfbid0GC41Tk4Lx7AvM2xFQZk9ewDU5JiRYaDuBEaHwGrmxTaDSi1JBoAZi1e7DaRdZqwPl&show_text=true&width=500" 
+        <Iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fstephen.davies.710667%2Fposts%2Fpfbid02uG55GSdGLDbpdPpLpdDbFuK1fhKe3TSVggKbcjG9PR7CEH16fWMxWJqqDRuiqrC2l&show_text=true&width=500" 
         width="500" 
-        height="185" 
-        style= {{
-            border: 'none', overflow: 'hidden'
-        }}
+        height="170" 
+        style={{border:'none', overflow:'hidden'}}
         scrolling="no" 
         frameborder="0" 
         allowfullscreen="true" 
