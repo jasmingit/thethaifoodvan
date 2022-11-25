@@ -4,7 +4,7 @@ const About = () => {
         <div>
         <h3 className="sub-history">{titleHistory}</h3>
         <p></p>
-        
+
         </div>
 
     )
