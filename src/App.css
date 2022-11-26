@@ -64,9 +64,27 @@ font-family: 'Barlow', sans-serif;
 .slideshow{
  display: flex;
  justify-content: center;
- align-items: center;
- max-width: 100%;
-height: 200px;
+ align-items: center; 
+ width:50px;
+ height: 200px;
+}
+
+.fb-reviews {
+  display: flexbox;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+
+.review {
+  border-radius: 2px 2px 2px 2px;
+  border: none;
+  margin: 5%;
+  color: yellow;
+}
+
+.reviews-title {
+  border: 4px, solid, rgb(255, 213, 0);
 }
 
 

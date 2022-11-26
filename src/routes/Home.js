@@ -1,5 +1,5 @@
 import Slideshow from "../components/Slideshow";
-
+import FacebookReviews from "../components/FacebookReviews";
 
 
 
@@ -7,6 +7,7 @@ const Home = () => {
     return (
         <div className="home">
         <Slideshow />
+        <FacebookReviews />
         </div>
     );
 };
